@@ -1,0 +1,28 @@
+/* smal tablet to big tablet */
+@media only screen and (max-width: 768px) {
+}
+
+.form {
+  width: 45%;
+}
+
+/* Small Phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+  .Home {
+    flex-direction: column;
+    background: hsl(0, 100%, 74%) url("./images/bg-intro-mobile.png")center center/cover ;
+    padding-top: 4rem;
+    height: 100%;
+  }
+  .container {
+      width: 80%;
+      text-align: center;
+  }
+
+  .content h1, p {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom:1.5rem ;
+  }
+  
+}
